@@ -147,32 +147,32 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.75em;
 		line-height: 1.5em;
 	}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #041963;
 		}
 
 	select {
@@ -1941,7 +1941,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #041963;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2443,8 +2443,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #041963;
+			color: #041963 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2452,8 +2452,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #041963;
+			color: #041963 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2496,8 +2496,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #041963;
+			border-color: #041963;
 			color: #ffffff !important;
 		}
 
@@ -2541,12 +2541,12 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.5em;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -3189,4 +3189,18 @@ input, select, textarea {
 
 	.fab {
 		font-size: 4.5em;
+	}
+
+	.project-github {
+		font-size: 3em;
+	}
+
+	.project-link {
+		margin-top: 1em;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.app-store {
+		border-bottom: none;
 	}

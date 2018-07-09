@@ -2572,6 +2572,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		/* background-color: #1f1815; */
+		background-color: darkslategray;
 		/* background-attachment: scroll,								scroll; */
 		background-image: url("images/sf.jpg");
 		background-position-x : -20em;
@@ -2635,7 +2636,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.8);
 		}
 
 	#footer .copyright {
